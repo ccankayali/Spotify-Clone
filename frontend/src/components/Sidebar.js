@@ -3,10 +3,8 @@ import logo from '../img/logo.svg'
 
 function Sidebar() {
   return (
-    <aside className="pt-6">
-      <a href="#">
-        <img src={logo} alt=""/>
-      </a>  
+    <aside className="w-60 pt-6">
+      <img src={logo} alt="logo" className="w-40 mx-auto" />
     </aside>
     )
 }
