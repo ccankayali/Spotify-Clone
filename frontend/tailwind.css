@@ -9,7 +9,8 @@
     #root {
         @apply flex flex-col;
     }
-    .container {
-        height: calc(100% - theme('spacing.5'));
+    .wrapper {
+        height: calc(100% - theme('spacing.24'));
+        @apply flex
     }
 }
