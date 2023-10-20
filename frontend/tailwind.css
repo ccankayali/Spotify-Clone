@@ -4,7 +4,7 @@
 
 @layer base {
     html, body, #root {
-        @apply -full;
+        @apply h-full bg-backdrop;
     }
     #root {
         @apply flex flex-col;
