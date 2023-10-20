@@ -1,11 +1,15 @@
 import React from 'react'
 import logo from '../img/logo.svg'
 import "../style.css";
+import Menu from './Sidebar/Menu'
 
 function Sidebar() {
   return (
-    <aside className="w-50 py-2 pt-1">
-      <img src={logo} alt="logo" className="w-30" />
+    <aside className="w-60 py-2 pt-1">
+      <a className="mb-5">
+        <img src={logo} alt="logo" className="w-30" />
+      </a>
+      <Menu />
     </aside>
     )
 }
