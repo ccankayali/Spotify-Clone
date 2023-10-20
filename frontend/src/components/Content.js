@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from './Navbar';
 
 function Content() {
   return (
-    <div>Content</div>
+    <div>
+        <Navbar />
+        content
+    </div>
   )
 }
 
