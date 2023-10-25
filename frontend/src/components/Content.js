@@ -1,12 +1,16 @@
 import React from 'react'
 import Navbar from './Navbar';
+import { Routes, Route } from "react-router-dom";
+import Home from '../views/Home';
 
 function Content() {
   return (
-    <div>
+    <main className="flex-auto">
         <Navbar />
-        content
-    </div>
+        <Routes>
+          <Route path='/' element={<Home />} />
+        </Routes>
+    </main>
   )
 }
 
