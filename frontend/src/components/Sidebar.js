@@ -2,7 +2,7 @@ import logo from "../img/logo.svg"
 import { Icon } from "./Sidebar/Icons"
 import Menu from "./Sidebar/Menu"
 import Playlists from "./Sidebar/Playlists"
-// import DownloadApp from "./Sidebar/DownloadApp"
+import DownloadApp from "./Sidebar/DownloadApp"
 // import {useSelector} from "react-redux";
 // import SidebarCover from "./Sidebar/SidebarCover"
 
@@ -42,7 +42,7 @@ function Sidebar() {
 
 			<Playlists />
 
-			{/* <DownloadApp /> */}
+			<DownloadApp />
 
 			{/* {sidebar && <SidebarCover />} */}
 
