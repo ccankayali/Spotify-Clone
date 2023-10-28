@@ -1,14 +1,15 @@
+// index.js (veya başlangıç noktanız)
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-
+import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux'; // Provider'ı içe aktarın
+import { store } from "./stores/index"; // Redux mağazanızı içe aktarın
+import App from './App'; // Ana uygulama bileşeninizi içe aktarın
 import './index.css';
-import App from './App';
-import "./style.css";
-import "../src/tailwind.css";
+import './tailwind.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
+ReactDOM.render(
+  <Provider store={store}>
     <App />
-  </React.StrictMode>
+  </Provider>,
+  document.getElementById('root')
 );
