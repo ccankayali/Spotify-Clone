@@ -1,5 +1,6 @@
 import Title from "./Title"
 import SongItem from "./SongItem"
+import '../data/songs'
 
 function Section({ title, more = false, items }) {
     return (
