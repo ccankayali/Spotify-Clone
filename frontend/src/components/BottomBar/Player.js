@@ -2,7 +2,7 @@ import {Icon} from "./Icons";
 // import {useAudio, useFullscreen, useToggle} from 'react-use';
 // import {secondsToTime} from "utils";
 // import CustomRange from "../CustomRange";
-// import {useEffect, useMemo, useRef} from "react";
+import {useState, useEffect, useMemo, useRef} from "react";
 // import {useDispatch, useSelector} from "react-redux";
 // import {setControls, setPlaying, setSidebar} from "stores/player";
 // import FullScreenPlayer from "../FullScreenPlayer";
